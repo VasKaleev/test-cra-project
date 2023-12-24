@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.but {
+  background-color: white;
+  border: 1px solid #2068F8;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px 0;
+  width: 30%;
+  color: #2068F8;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 4px; */
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cards {
+  position: relative;
+  margin: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.kol_tov {
+  width: 20px;
+  position: absolute;
+  color: rgb(247, 238, 238);
   align-items: center;
+  background-color: #f55123;
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  font-size: 11px;
+  font-variation-settings: "wght"550;
+  font-weight: 400;
+  height: 16px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-width: 16px;
+  padding: 1px 3px 1px 4px;
+  right: 3px;
+  top: -1px;
+  left: 10px;
+  -webkit-transform: translateX(50%);
+  transform: translateX(20%);
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  width: 30px;
+  height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addBut {
+  margin: 10px;
+}
+.butAddRem {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+.but_ {
+  width: 20px;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin: 10px;
+}
+.butPlus {
+  width: 20px;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid #000;
+  margin: 10px;
+}
+.count {
+  margin: 10px;
 }
